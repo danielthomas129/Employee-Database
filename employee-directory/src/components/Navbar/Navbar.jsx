@@ -1,13 +1,13 @@
 import React from "react";
-import { Link } from "react-router-dom";
+// import { Link } from "react-router-dom";
 import "./Navbar.css";
 
 // Depending on the current path, this component sets the "active" class on the appropriate navigation link item
 const Navbar = props => (
-  <nav className="navbar navbar-expand-lg navbar-light bg-light">
-    <Link className="navbar-brand" to="/">
-      Pupster
-    </Link>
+ <nav className="navbar navbar-expand-lg navbar-light bg-light">
+    {/* <Link className="navbar-brand" to="/"> */}
+      <a href="/">Pupster</a>
+    {/* </Link> */}
     <div>
       <ul className="navbar-nav">
         <li
@@ -18,9 +18,9 @@ const Navbar = props => (
               : "nav-item"
           }
         >
-          <Link to="/" className="nav-link">
-            About
-          </Link>
+          {/* <Link to="/" className="nav-link"> */}
+            <a href="/">About</a>
+          {/* </Link> */}
         </li>
         <li
           className={
@@ -29,9 +29,9 @@ const Navbar = props => (
               : "nav-item"
           }
         >
-          <Link to="/discover" className="nav-link">
-            Discover
-          </Link>
+          {/* <Link to="/discover" className="nav-link"> */}
+            <a href="/">Discover</a>
+          {/* </Link> */}
         </li>
         <li
           className={
@@ -40,9 +40,9 @@ const Navbar = props => (
               : "nav-item"
           }
         >
-          <Link to="/search" className="nav-link">
-            Search
-          </Link>
+          {/* <Link to="/search" className="nav-link"> */}
+            <a href="/">Search</a>
+          {/* </Link> */}
         </li>
       </ul>
     </div>
