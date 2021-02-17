@@ -1,9 +1,9 @@
 import React from "react";
 
 const Search = props => (
-    <h1>
-        Hello
-    </h1>
+    <form className="py-1">
+    <input className="form-control" type="search" placeholder="Search" onInput={props.handleInput} />
+  </form>
     );
 
 

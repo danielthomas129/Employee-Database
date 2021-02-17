@@ -3,7 +3,6 @@ import React from "react";
 import Container from "../Container";
 import Hero from "../Hero";
 import Navbar from "../Navbar";
-import Search from "../Search";
 import Table from "../Table";
 import Footer from "../Footer";
 
@@ -13,9 +12,8 @@ function EmployeeDirect() {
     {/* <Router> */}
     <Navbar />
     {/* </Router> */}
-    <Search />
     
-          <Hero />
+          {/* <Hero /> */}
       <Container>
         <Table />
       </Container>
