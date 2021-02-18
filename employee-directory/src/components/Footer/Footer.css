@@ -1,7 +1,18 @@
 .footer {
   min-height: 100px;
-  background: #E5E5E5;
-  position: relative;
+  /* background: #E5E5E5; */
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: 3px;
+  background: #4a314d;
+  text-align: center;
+  color: #ace894;
+  text-shadow: #a8ba9a;
+  font-size: x-large;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-weight: bolder;
 }
 
 .footer span {
@@ -10,5 +21,6 @@
   left: 0;
   right: 0;
   padding: 3px;
-  background: #B8B8B8;
+  background: #4a314d;
+
 }

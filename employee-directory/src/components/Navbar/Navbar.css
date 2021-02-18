@@ -1,3 +1,19 @@
-nav.navbar.navbar-default {
+.nav.navbar.navbar-default {
   margin-bottom: 0;
-}
+  background: #4a314d;
+  text-align: center;
+  color: #ace894;
+  text-shadow: #a8ba9a;
+  font-size: x-large;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-weight: bolder;
+};
+.navbar {
+    background: #4a314d !important;
+    text-align: center;
+    color: #ace894;
+    text-shadow: #a8ba9a;
+    font-size: x-large;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bolder;
+  };
