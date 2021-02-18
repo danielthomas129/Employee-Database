@@ -1,0 +1,23 @@
+table {
+    background-color: #a8ba9a;
+    /* background: #4a314d; */
+    text-align: center;
+    color:#1a090d;
+    text-shadow: #ace894;
+    font-size: medium;
+    font-family: 'Arial Narrow', Arial, sans-serif;
+    font-weight: normal;
+    border-radius: 25px;
+}
+ th {
+     font-family: 'futura';
+     text-align: center;
+    color:#4a314d;
+    text-shadow: #ace894;
+    font-size: medium;
+    font-weight: bolder;
+ }
+
+ img {
+    border-radius: 25px;
+ }

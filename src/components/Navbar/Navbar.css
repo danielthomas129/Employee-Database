@@ -1,0 +1,21 @@
+.navbar {
+  margin-bottom: 0;
+  background: #4a314d;
+  text-align: center !important;
+  color: #ace894;
+  text-shadow: #a8ba9a;
+  font-size: x-large;
+  font-family: 'Futura';
+  /* font-weight: 300; */
+  align-content: center;
+  font-stretch: expanded;
+
+};
+
+.h1 {
+  /* text-align: center !important; */
+  font-family: 'Futura';
+  font-weight: bolder;
+  font-stretch: expanded;
+  padding-left: 20px;
+};
